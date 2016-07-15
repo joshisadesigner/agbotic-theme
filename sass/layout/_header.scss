@@ -1,0 +1,25 @@
+.site-branding {
+  @include clearfix;
+  background-size: cover;
+  background-position: center;
+  background-color: #efefef;
+  height: 45vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-bottom: 19px solid #30a702;
+
+  .site-logo,
+  .site-title,
+  .site-description {
+    text-align: center;
+    display: block;
+    color: #333;
+  }
+
+  img {
+    display: block;
+  }
+}

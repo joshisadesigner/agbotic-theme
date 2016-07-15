@@ -1,0 +1,27 @@
+.widget {
+	margin: 0 0 1.5em;
+
+	/* Make sure select elements fit in widgets. */
+	select {
+		max-width: 100%;
+	}
+}
+
+.images-grid {
+	figure {
+		margin: 0;
+		overflow: hidden;
+		width: 25%;
+		max-height: 290px;
+		float: left;
+
+		img {
+			display: block;
+			transition: all 0.5s ease-in-out;
+
+			&:hover {
+				transform: scale( 1.1 );
+			}
+		}
+	}
+}
